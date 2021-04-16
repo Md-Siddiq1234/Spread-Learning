@@ -1,0 +1,9 @@
+node_modules
+src
+package-lock.json
+package.json
+tailwind.config.js
+mix-manifest.json
+webpack.mix.js
+public/js/aos.min.js
+public/js/myscript.js
