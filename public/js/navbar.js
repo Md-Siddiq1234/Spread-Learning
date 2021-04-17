@@ -5,7 +5,7 @@ const get_quote_button = document.querySelector('.get_quote');
 const closeSidebar = document.querySelector('.close-sidebar')
 const header = document.querySelector('header')
 
-const headerClasslist = ['bg-white','!text-aqua']
+const headerClasslist = ['bg-white','!text-aqua','shadow-lg']
 
 const get_quote_classlist = ['border-aqua','hover:bg-aqua','hover:text-white']
 window.addEventListener("scroll", (e) => {
