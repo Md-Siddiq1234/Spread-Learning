@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Scedule meeting | E-branding solution</title>
+      <link href="image/siteicon.png" rel="icon" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       rel="stylesheet"
@@ -15,20 +16,21 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-  
-      <!-- navbar start-->
-      <header class="w-full fixed inset-x-0 z-20 text-white">
+        <!-- navbar start-->
+    <header class="w-full fixed inset-x-0 z-20 text-white">
         <div class="max-w-screen-2xl mx-auto">
           <div class="grid grid-cols-3 py-3 px-4">
             <div>
+                <a href="index.html">
               <img class="2xl:w-44 w-36" src="./image/spread.png" alt="" />
+                    </a>
             </div>
             <div
               class="getQuote col-span-2 justify-self-end transform transition-all duration-700 flex items-center"
             >
               <span class="px-3"><i class="fas fa fa-search text-3xl"></i></span>
-              <a href="" class="get_quote border_button sm:block hidden">Get a quote</a>
-              <span class="open-sidebar get_quote text-white px-2 bg-black rounded"
+              <a href="" class="border_button sm:block hidden">Schedule meeting</a>
+              <span class="cursor-pointer open-sidebar get_quote text-white px-2 bg-black rounded"
                 ><i class="fas fa fa-bars text-3xl"></i
               ></span>
             </div>
@@ -55,96 +57,45 @@
         </ul>
       </div>
       <!-- sidebar end -->
-    <!-- banner start -->
+           <!-- banner start -->
     <div class="h-[50vh] grid place-content-center bg-gradient-to-tl from-purple-800 to-purple-400">
       <div class="text-center text-white font-bold text-3xl">
-       Contact Us
+Scedule a meeting
       </div>
     </div>
     
-      </section>
       <!-- banner end -->
+
+      <!-- get quote form start -->
     <section
-      class="form-part mt-20 grid max-w-[1600px] m-auto xl:px-32 px-4 place-content-center md:grid-cols-3 grid-cols-1 gap-7"
+      class="form-part mt-20 grid max-w-[1600px] m-auto xl:px-32 px-4 place-content-center grid-cols-1 gap-7"
     >
-      <div>
-        <div class="flex py-5 border-b">
-          <img
-            src="./image/email.png"
-            class="self-start w-10 object-contain"
-            alt=""
-          />
-          <div class="px-4">
-            <h3 class="font-bold text-xl pb-2">Email & Phone</h3>
-            <div class="text-gray-700">
-              <h4>example@gmail.com</h4>
-              <h4>+0123456789</h4>
-            </div>
-          </div>
-        </div>
-        <div class="flex py-5 border-b">
-          <img
-            src="./image/email.png"
-            class="self-start w-10 object-contain"
-            alt=""
-          />
-          <div class="px-4">
-            <h3 class="font-bold text-xl pb-2">Our Location</h3>
-            <div class="text-gray-[#646464]">
-              <h4>29 Street, Melbourne City</h4>
-              <h4>+0123456789</h4>
-            </div>
-          </div>
-        </div>
-        <div class="flex py-5">
-          <img
-            src="./image/email.png"
-            class="self-start w-10 object-contain"
-            alt=""
-          />
-          <div class="px-4">
-            <h3 class="font-bold text-xl pb-2">Email & Phone</h3>
-            <div class="text-gray-700">
-              <h4>example@gmail.com</h4>
-              <h4>+0123456789</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="contact-form col-span-2">
-        <form action="https://formsubmit.co/bs3101081@gmail.com" method="POST" class="grid grid-cols-2 gap-4 items-center">
-          <input type="text" name="name" class="input input-full" placeholder="Name*" />
+
+      <div class="contact-form">
+        <form action="" class="grid grid-cols-2 gap-4 place-content-center">
+          <input type="text" class="input input-full" placeholder="First Name*" />
           <input
             type="text"
-            name="email"
             class="input input-full"
-            placeholder="Email-address*"
+            placeholder="Last Name*"
           />
-          <input type="text" name="subject" class="col-span-2 input" placeholder="Subject*" />
+          <input type="text" class="col-span-2 input" placeholder="Email*" />
+          <input type="text" class="col-span-2 input" placeholder="Subject*" />
           <textarea
-            name="message"
+            name=""
             id=""
             class="col-span-2 input pt-3 !h-32"
             placeholder="Message"
           ></textarea>
-          <div>
-            <input type="submit" value="Send Message" class="btn py-2" />
+          <div class="col-span-2 my-2">
+            <input type="submit" value="Send Message" class="btn py-2 m-auto block" />
           </div>
         </form>
       </div>
     </section>
-
-    <div class="google-map max-w-[1600px] mx-auto my-20 px-4">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58403.62358074509!2d90.3272609227238!3d23.810544424183007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0c1c61277db%3A0xc7d18838730e2e59!2z4Kau4Ka_4Kaw4Kaq4KeB4KawLCDgpqLgpr7gppXgpr4!5e0!3m2!1sbn!2sbd!4v1618051363803!5m2!1sbn!2sbd"
-        class="w-full rounded h-96"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-    </div>
-
-    <footer
-      class="py-24 grid grid-cols-1 text-center sm:grid-cols-2 md:grid-cols-4 gap-12 px-6 overflow-hidden"
+      <!-- get quote form end -->
+      <footer
+      class="py-16 grid grid-cols-1 text-center sm:grid-cols-2 md:grid-cols-4 gap-12 px-6 overflow-hidden"
     >
       <div class="m-auto grid gap-6">
         <img
@@ -153,19 +104,21 @@
           class="w-52 object-contain m-auto"
         />
         <p class="max-w-xs font-semibold text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, minus
-          voluptatem! Optio cupiditate,
+          Get connected with us and start a work scedule. We will assure your success.
         </p>
         <ul class="flex justify-around px-4">
           <li>
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
-          </li>
+          <a href="https://www.facebook.com/business.ebranding"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/BrandingSpread"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/spreadebrandingsolution"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCWEbwtaGKfVOv9QI8Nw3cbw/featured"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        </li>
         </ul>
       </div>
       <div>
@@ -191,15 +144,12 @@
       <div class="grid gap-5">
         <h4 class="text-2xl">Contact info</h4>
         <p class="max-w-[300px] m-auto font-semibold text-gray-700">
-          Grursus mal suada faci Lorem to the ipsum dolarorit more ametion more
-          consectetur elit.
+          Contact with us any time. We are free to talk.
         </p>
         <div>
           <p>
-            <a href=""
-              ><i class="fa fa-map-marker pr-2" aria-hidden="true"></i>96,
-              Indira Road</a
-            >
+            <a href="https://www.google.com/maps/place/West+Kazipara,+Dhaka/@23.7964554,90.3723678,19z/data=!3m1!4b1!4m5!3m4!1s0x3755c0cd0f072f93:0x6f2cea2ef815671e!8m2!3d23.7964624!4d90.3729156"
+            ><i class="fa fa-map-marker pr-2" aria-hidden="true"></i>West Kazipara, Dhaka</a>
           </p>
           <p class="py-2">
             <a href="callto:+880 1984603367">
@@ -218,10 +168,7 @@
     </footer>
 
     <div class="text-gray-500 py-5 text-center">
-      © 2020 digeco. All Rights Reserved by RadiusTheme
+      © 2020 digeco. All Rights Reserved by Spread E-branding
     </div>
-    <script src="./js/navbar.js"></script>
-
-    
   </body>
 </html>

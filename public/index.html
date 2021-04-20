@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spread E-branding Solution</title>
+    <title>Siddiq</title>
+      <link href="image/siteicon.png" rel="icon" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -12,7 +13,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+      
+      
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
   </head>
   <body class="font-roboto">
     <!-- navbar start-->
@@ -20,14 +25,16 @@
       <div class="max-w-screen-2xl mx-auto ">
         <div class="grid grid-cols-3 py-3 px-4">
           <div>
+              <a href="index.html">
             <img class="2xl:w-44 w-36" src="./image/spread.png" alt="" />
+                </a>  
           </div>
           <div
             class="getQuote col-span-2 justify-self-end transform transition-all duration-700 flex items-center"
           >
             <span class="px-3"><i class="fas fa fa-search text-3xl"></i></span>
-            <a href="" class="get_quote border_button sm:block hidden">Get a quote</a>
-            <span class=" cursor-pointer open-sidebar get_quote text-white px-2 bg-black rounded"
+            <a href="scedule%20meeting.html" class="get_quote border_button sm:block hidden">Schedule meeting</a>
+            <span class="cursor-pointer open-sidebar get_quote text-white px-2 bg-black rounded"
               ><i class="fas fa fa-bars text-3xl"></i
             ></span>
           </div>
@@ -61,24 +68,17 @@
 
     <!-- banner start -->
     <section
-      class="bg-no-repeat bg-cover bg-"
-      style="background-image: url('./image/background.png')"
+      class="bg-no-repeat bg-cover sm:bg-center bg-top h-[100vh] banner" 
+      style="background-image: url('./image/indexBanner.png')"
     >
-      <div class="grid grid-cols-2 gap-10 items-center py-16">
-        <div class="text-white sm:px-8 pl-2">
-          <h4 class="font-bold 2xl:text-6xl text-[5vw]">Welcome to</h4>
-          <h3
-            class="md:py-8 py-4 lg:text-5xl lg:leading-snug leading-normal sm:text-[4vw]"
-          >
-            Our Digital Agency. That Will Help You to Grow.
-          </h3>
-          <a href="services.html" class="border_button ml-0">Our Service</a>
+      <div class="xl:py-36 py-28 h-full sm:px-20 px-10 grid grid-rows-[repeat(4,min-content)] sm:gap-y-10 gap-y-2">
+          <h3 class="text-2xl sm:text-4xl">Welcome to</h3>
+        <h2 class="font-bold 2xl:text-6xl pt-2 text-3xl sm:text-5xl">Spread E-branding solution.</h2>
+        <h4 class="text-2xl sm:text-4xl py-5">Earn in halal way.</h4>
+        <p>
+          <a href="" class="p-3 border border-gray-800 rounded hover:bg-black hover:text-white font-semibold transition duration-500">Who we are</a>
+        </p>
         </div>
-        <div class="overflow-hidden transform  -translate-y-16">
-          <img src="./image/right.png" alt="" class="w-1/2 ml-auto" />
-          <img src="./image/illustration14.png" alt="" class="w-full" />
-        </div>
-      </div>
     </section>
 
     <!-- banner end -->
@@ -89,88 +89,106 @@
         Services We Can Help You
       </h4>
       <div class="common_grid gap-5">
-        <div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           <p>
+              <a href="web-development.html">
             <i
-              class="fas fa fa-pencil-alt fa-2x text-white p-4 bg-parrot rounded-full"
+              class="fas fa fa-desktop fa-2x text-white p-4 bg-parrot rounded-full"
             ></i>
+              </a>
           </p>
           <h3 class="py-6 2xl:text-4xl text-2xl font-semibold">
-            Interface Design
+              <a href="web-development.html">
+            Web Development
+                  </a>
           </h3>
           <p class="text-gray-600 2xl:text-2xl">
-            Grursus mal suada faci ipsum to and the and dolarorit ametion
-            consectetur elitto more bulum that odio
+            Responsive websites and user freindly designs will help your business to repreasnet well to your audience.
           </p>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
           <p>
+              <a href="graphics-design.html">
             <i
               class="fas fa fa-pencil-alt fa-2x text-white p-4 bg-parrot rounded-full"
             ></i>
+              </a>
           </p>
           <h3 class="py-6 2xl:text-4xl text-2xl font-semibold">
-            Interface Design
+              <a href="graphics-design.html">
+            Graphics Design
+              </a>
           </h3>
           <p class="text-gray-600 2xl:text-2xl">
-            Grursus mal suada faci ipsum to and the and dolarorit ametion
-            consectetur elitto more bulum that odio
+            attractive designs will help your business to gain more and more poeple. 
           </p>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
           <p>
+              <a href="seo-optimizer.html">
             <i
-              class="fas fa fa-pencil-alt fa-2x text-white p-4 bg-parrot rounded-full"
+              class="fas fa fa-search fa-2x text-white p-4 bg-parrot rounded-full"
             ></i>
+              </a>
           </p>
           <h3 class="py-6 2xl:text-4xl text-2xl font-semibold">
-            Interface Design
+              <a href="seo-optimizer.html">
+            SEO
+              </a>           
           </h3>
           <p class="text-gray-600 2xl:text-2xl">
-            Grursus mal suada faci ipsum to and the and dolarorit ametion
-            consectetur elitto more bulum that odio
+            Optimize your website at search engine and rank your website at top.
           </p>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="900">
           <p>
+              <a href="digital-marketing.html">
             <i
-              class="fas fa fa-pencil-alt fa-2x text-white p-4 bg-parrot rounded-full"
+              class="fas fa fa-bullhorn fa-2x text-white p-4 bg-parrot rounded-full"
             ></i>
+              </a>
           </p>
           <h3 class="py-6 2xl:text-4xl text-2xl font-semibold">
-            Interface Design
+              <a href="digital-marketing.html">
+            Digital Marketing
+              </a>
           </h3>
           <p class="text-gray-600 2xl:text-2xl">
-            Grursus mal suada faci ipsum to and the and dolarorit ametion
-            consectetur elitto more bulum that odio
+            Digital marketing will help you to gain more people at your social media platforms.
           </p>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1200">
           <p>
+              <a href="research-analysis.html">
             <i
-              class="fas fa fa-pencil-alt fa-2x text-white p-4 bg-parrot rounded-full"
+              class="fas fa fa-file fa-2x text-white p-4 bg-parrot rounded-full"
             ></i>
+              </a>
           </p>
           <h3 class="py-6 2xl:text-4xl text-2xl font-semibold">
-            Interface Design
+              <a href="research-analysis.html">
+            Research &amp; analysis
+              </a>
           </h3>
           <p class="text-gray-600 2xl:text-2xl">
-            Grursus mal suada faci ipsum to and the and dolarorit ametion
-            consectetur elitto more bulum that odio
+            Research about your business and make the right decision at right time
           </p>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1500">
           <p>
+              <a href="animation.html">
             <i
-              class="fas fa fa-pencil-alt fa-2x text-white p-4 bg-parrot rounded-full"
+              class="fas fa fa-cubes fa-2x text-white p-4 bg-parrot rounded-full"
             ></i>
+              </a>
           </p>
           <h3 class="py-6 2xl:text-4xl text-2xl font-semibold">
-            Interface Design
+              <a href="animation.html">
+            Animation
+                </a>
           </h3>
           <p class="text-gray-600 2xl:text-2xl">
-            Grursus mal suada faci ipsum to and the and dolarorit ametion
-            consectetur elitto more bulum that odio
+            Video and animation are much effective then a photo. Because peoples like to visualize. 
           </p>
         </div>
       </div>
@@ -178,27 +196,34 @@
     <!-- service end -->
 
     <!-- about us start -->
-    <section class="col-2-grid gap-x-0">
+    <section class="col-2-grid gap-x-0 px-10">
       <div class="sm:pl-6 px-3">
         <h4 class="lg:text-6xl text-3xl font-bold py-10">
-          We’re a dynamic team of creatives people innovation & Marketing
+          <p class="small">"We're a dynamic team of</p> creative &amp; Innovative thoughts"
         </h4>
        
         <p class="text-gray-600 leading-loose pb-6 text-justify 2xl:text-xl">
-          Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion many
-          consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm is that
-          ipsum that dolocons rsus mal suada and fadolorit to consectetur our is
-          dummy text more text elit.Grursus mal suada faci ipsum to and the and
-          ametion consectetur more bulum that odio.Grursus mal suada faci the
-          ipsum to and the and dolarorit ametion consectetur elitto more bulum
-          that dummy text here now at odio...
+          We are a company of business solution &amp; consultancy, will help you to grow your business through online by creating it a brand with proper marketing. We believe that the best way to feature your services to others is online. Because people nowadays find everything online. All you need to do just be active on all social media platforms and see the magic. 
+You won't be needed to find your customers, your customers will find you.
         </p>
-        <a href="" class="text-purple-700 text-xl"
-          >Read More <i class="fas fa fa-arrow-right px-3"></i
-        ></a>
+        <a href="about.html" class="text-purple-700 text-xl poppins read but"
+          >Read More <span>&rarr;</span></a>
       </div>
-      <div class="px-3">
-        <img src="./image/about3.png" alt="" class="block mx-auto" />
+      <div class="swiper-container w-full">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./image/element58.png" alt="" class="lg:w-1/2 w-full m-auto" data-aos="zoom-in" data-aos-duration="3000">
+          </div>
+     
+          <div class="swiper-slide">
+            <img src="./image/element58.png" alt="" class="lg:w-1/2 w-full m-auto" data-aos="zoom-in">
+          </div>
+     
+          <div class="swiper-slide">
+            <img src="./image/element58.png" alt="" class="lg:w-1/2 w-full m-auto" data-aos="zoom-in" >
+          </div>
+  
+          </div>
       </div>
     </section>
     <!-- about us end-->
@@ -210,32 +235,32 @@
         We’ve done lot’s of work, Let’s Check some from here
        </h4>
       <div class="common_grid gap-8">
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="3000">
           <img class="m-auto" src="./image/Untitled design (1).png" alt="" />
           <h3 class="text-2xl py-5">From Print to Platform</h3>
           <h5 class="font-thin text-xl">Web Design</h5>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
           <img class="m-auto" src="./image/Untitled design (2).png" alt="" />
           <h3 class="text-2xl py-5">From Print to Platform</h3>
           <h5 class="font-thin text-xl">Web Design</h5>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600">
           <img class="m-auto" src="./image/Untitled design (3).png" alt="" />
           <h3 class="text-2xl py-5">From Print to Platform</h3>
           <h5 class="font-thin text-xl">Web Design</h5>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900">
           <img class="m-auto" src="./image/Untitled design (4).png" alt="" />
           <h3 class="text-2xl py-5">From Print to Platform</h3>
           <h5 class="font-thin text-xl">Web Design</h5>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1200">
           <img class="m-auto" src="./image/Untitled design (5).png" alt="" />
           <h3 class="text-2xl py-5">From Print to Platform</h3>
           <h5 class="font-thin text-xl">Web Design</h5>
         </div>
-        <div>
+        <div  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1500">
           <img class="m-auto" src="./image/Untitled design.png" alt="" />
           <h3 class="text-2xl py-5">From Print to Platform</h3>
           <h5 class="font-thin text-xl">Web Design</h5>
@@ -246,65 +271,45 @@
 
     <!-- our team start -->
     <section class="col-2-grid gap-x-10 px-10">
-      <div class="swiper-container w-full">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./image/element58.png" alt="" class="lg:w-1/2 w-full m-auto">
-          </div>
-     
-          <div class="swiper-slide">
-            <img src="./image/element58.png" alt="" class="lg:w-1/2 w-full m-auto">
-          </div>
-     
-          <div class="swiper-slide">
-            <img src="./image/element58.png" alt="" class="lg:w-1/2 w-full m-auto">
-          </div>
-     
-
-          </div>
-        </div>
-      </div>
+      <img src="./image/about3.png" alt="" class="block mx-auto" data-aos="fade-right" data-aos-duration="1000"/>
       <div>
-        <p class="text-2xl font-semibold py-5 xl:text-3xl">
-          Some Valueable Word from Our Happy Clients “Smiley”
-        </p>
+        <h4 class="lg:text-5xl text-3xl font-bold py-10 px-2">
+          We are a dynamic team
+        </h4>
         <p class="text-gray-600 leading-relaxed xl:text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-          quam, modi fugiat reiciendis assumenda accusamus natus veritatis
-          mollitia quas laborum, illum laboriosam, magnam possimus atque ut?
-          Rerum nihil suscipit totam.
+          We are a dynamic team having a lot of experiences of working. We understant our clients and what they want. Each member of our team is ready to sacrifice their time for you.
         </p>
-      </div>
-    </section>
-    <!-- our team end -->
+      </section>
+      <!-- our team end -->
+    </div>
 
 
     <!-- number count start -->
     <div class="grid lg:grid-cols-3 lg:grid-rows-1 grid-rows-2 gap-5  m-auto sm:px-10 px-5 sm:py-52 py-32 bg-fixed bg-cover bg-no-repeat sm:bg-top bg-bottom my-10" 
-    style="background: url('./image/backgroundtwo.png');">
+    style="background: url('./image/backgroundtwo.png') fixed center;">
       <div class="col-span-2 text-white">
         <h2 class="sm:text-[5vw] text-lg leading-tight">
-          Everything you need to manage your website.</h2>
-          <p class="xl:text-2xl text-xl leading-relaxed py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eos saepe sed, blanditiis adipisci cum nam voluptate commodi iusto maiores aspernatur non eum laborum at fugit similique eius nobis voluptates.</p>
+          Everything you need to manage your business.</h2>
+          <p class="xl:text-2xl text-xl leading-relaxed py-10">Be patient and just wait for your success. Be sure that digital marketing will grow your business very fast.</p>
       </div>
       <div class="grid grid-cols-2 gap-8 m-auto lg:col-span-1 col-span-2 text-center">
         <div class="px-8 py-3 rounded-xl font-bold text-white border-2 border-white -mr-3">
-          <span class="text-3xl counter" data-target="counter1">208</span>
+          <span class="text-3xl counter" data-target="counter1">0</span>
+          <h4 class="py-4 text-lg">satisfied clients</h4>
+        </div>
+       
+        <div class="px-8 py-3 rounded-xl font-bold text-white border-2 border-white -mr-3">
+          <span class="text-3xl counter" data-target="counter2">0</span>
+          <h4 class="py-4 text-lg">experienced days</h4>
+        </div>
+       
+        <div class="px-8 py-3 rounded-xl font-bold text-white border-2 border-white -mr-3">
+          <span class="text-3xl counter" data-target="counter3">0</span>
           <h4 class="py-4 text-lg">Happy Clients</h4>
         </div>
        
         <div class="px-8 py-3 rounded-xl font-bold text-white border-2 border-white -mr-3">
-          <span class="text-3xl counter" data-target="counter2">208</span>
-          <h4 class="py-4 text-lg">Happy Clients</h4>
-        </div>
-       
-        <div class="px-8 py-3 rounded-xl font-bold text-white border-2 border-white -mr-3">
-          <span class="text-3xl counter" data-target="counter3">208</span>
-          <h4 class="py-4 text-lg">Happy Clients</h4>
-        </div>
-       
-        <div class="px-8 py-3 rounded-xl font-bold text-white border-2 border-white -mr-3">
-          <span class="text-3xl counter" data-target="counter4">208</span>
+          <span class="text-3xl counter" data-target="counter4">0</span>
           <h4 class="py-4 text-lg">Happy Clients</h4>
         </div>
        
@@ -314,21 +319,7 @@
     <!-- number count end -->
 
 
-    <!-- improve business start -->
-      <section class="col-2-grid gap-5 p-10">
-        <div class="grid grid-row-3 xl:gap-10 gap-5 justify-items-center border border-gray-200 pb-5">
-          <img src="./image/01_Blog-530x400.jpg" alt="" class="w-full">
-          <h4 class="xl:text-2xl">January 6, 2020</h4>
-          <h3 class="xl:text-4xl text-center text-xl font-semibold">  5 way to improve your business</h3>
-        </div>
-        <div class="grid grid-row-3 xl:gap-10 gap-5 justify-items-center border border-gray-200 pb-5">
-          <img src="./image/01_Blog-530x400.jpg" alt="" class="w-full">
-          <h4 class="xl:text-2xl">January 6, 2020</h4>
-          <h3 class="xl:text-4xl text-center text-xl font-semibold">  5 way to improve your business</h3>
-        </div>
-        <div></div>
-      </section>
-    <!-- improve business end -->
+    
 
     <footer
     class="grid grid-cols-1 text-center sm:grid-cols-2 md:grid-cols-4 gap-12 px-6 overflow-hidden my-10"
@@ -340,53 +331,52 @@
         class="w-52 object-contain m-auto"
       />
       <p class="max-w-xs font-semibold text-gray-400">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, minus
-        voluptatem! Optio cupiditate,
+        Get connected with us and start a work scedule. We will assure your success.
       </p>
       <ul class="flex justify-around px-4">
         <li>
-          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.facebook.com/business.ebranding"><i class="fab fa-facebook-f"></i></a>
         </li>
         <li>
-          <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/BrandingSpread"><i class="fab fa-twitter" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/spreadebrandingsolution"><i class="fab fa-instagram" aria-hidden="true"></i></a>
         </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCWEbwtaGKfVOv9QI8Nw3cbw/featured"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        </li>  
       </ul>
     </div>
     <div>
       <h3 class="text-2xl font-semibold">Our Services</h3>
       <ul class="pt-4 grid gap-2 text-gray-700">
-        <li><a href="#">Interface design</a></li>
-        <li><a href="#">Web Design</a></li>
-        <li><a href="#">Seo optimize</a></li>
-        <li><a href="#">Graphics design</a></li>
-        <li><a href="#">Content Development</a></li>
+        <li><a href="graphics-design.html">Graphics design</a></li>
+        <li><a href="web-development.html">Web Design</a></li>
+        <li><a href="seo-optimizer.html">Seo optimize</a></li>
+        <li><a href="research-analysis.html">Research &amp; analysis</a></li>
+        <li><a href="digital-marketing.html">Digital Marketing</a></li>
       </ul>
     </div>
     <div>
       <h4 class="text-2xl">Important links</h4>
       <ul class="pt-4 grid gap-2 text-gray-700">
-        <li><a href="#">About us</a></li>
+        <li><a href="about.html">About us</a></li>
         <li><a href="#">How we work</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="services.html">Services</a></li>
         <li><a href="#">Case study</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
       </ul>
     </div>
     <div class="grid gap-5">
       <h4 class="text-2xl">Contact info</h4>
       <p class="max-w-[300px] m-auto font-semibold text-gray-700">
-        Grursus mal suada faci Lorem to the ipsum dolarorit more ametion more
-        consectetur elit.
+        Contact with us any time. We are free to talk.
       </p>
       <div>
         <p>
-          <a href=""
-            ><i class="fa fa-map-marker pr-2" aria-hidden="true"></i>96,
-            Indira Road</a
-          >
+          <a href="https://www.google.com/maps/place/West+Kazipara,+Dhaka/@23.7964554,90.3723678,19z/data=!3m1!4b1!4m5!3m4!1s0x3755c0cd0f072f93:0x6f2cea2ef815671e!8m2!3d23.7964624!4d90.3729156"
+            ><i class="fa fa-map-marker pr-2" aria-hidden="true"></i>West Kazipara, Dhaka</a>
         </p>
         <p class="py-2">
           <a href="callto:+880 1984603367">
@@ -396,24 +386,35 @@
         </p>
         <p>
           <a href="mailto:info.spread0@gmail.com"
+          >info.spread0@gmail.com</a
             ><i class="fa fa-envelope pr-2" aria-hidden="true"></i
-            >info.spread0@gmail.com</a
           >
         </p>
       </div>
     </div>
   </footer>
-  <div class="text-gray-500 py-5 text-center">© 2020 digeco. All Rights Reserved by RadiusTheme</div>
+  <div class="text-gray-500 py-5 text-center">© 2020 digeco. All Rights Reserved by Spread E-branding</div>
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
  var swiper = new Swiper('.swiper-container',{
-  
+    loop:true,
+    autoplay: true,
+    disableOnInteraction:true,
+     
+     
+
  });
     </script>
 
     <script src="./js/navbar.js"></script>
     <script src="./js/counter.js"></script>
+      
+      
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+           AOS.init();
+      </script>
   </body>
 </html>
